@@ -25,3 +25,11 @@ def ping(): # respond to server Pings.
   
 def sendmsg(msg, target=channel): # sends messages to the target.
   ircsock.send(bytes("PRIVMSG "+ target +" :"+ msg +"\n", "UTF-8"))
+
+def sendmsg(msg, target=channel): # sends messages to the target.
+  ircsock.send(bytes("PRIVMSG "+ target +" :"+ msg +"\n", "UTF-8"))
+  
+def main():
+  joinchan(channel)
+  while 1:
+    
