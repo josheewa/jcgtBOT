@@ -4,7 +4,7 @@ port = 1338
 channels = ['#GooGleBOT'] #Add as many as you want
 nick = 'BOT'
 identify = True
-password = '11azv86s'
+password = 'PASSWORD'
 irc = socket.socket (socket.AF_INET, socket.SOCK_STREAM)
 # print "Connecting to "+network+" ..."
 irc.connect ((network, port))
