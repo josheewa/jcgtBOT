@@ -4,7 +4,7 @@ port = 1337
 channels = ['#jcgtBOT'] #Add as many as you want 
 nick = 'jcgtBOT' 
 identify = True 
-password = 'jcgtBOT:<password>' 
+password = 'jcgtBOT:<pass>' 
 irc = socket.socket (socket.AF_INET, socket.SOCK_STREAM)
 # print "Connecting to "+network+" ..."
 irc.connect ((network, port))
@@ -75,6 +75,6 @@ while True:
         lowernospacemsg = lowermsg.replace (' ','')
         if lowermsg.count('!qadd') == 0:
                 if lowermsg == '&boo':
-                      irc.send ('PRIVMSG '+chan+' :That's not nice!\r\n')
+                      irc.send ('PRIVMSG '+chan+' :That'+'''+s not nice!\r\n')
     except:
         pass
