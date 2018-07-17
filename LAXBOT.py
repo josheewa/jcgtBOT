@@ -6,7 +6,7 @@ nick = ''
 identify = True
 password = ''
 insults = ["If laughter is the best medicine, your face must be curing the world.", "It's better to let someone think you are an Idiot than to open your mouth and prove it."]
-badwords = ['bitch', 'cunt', 'fucc', 'fuck', 'damn', 'shit', 'hell ']
+badwords = ['bitch', 'cunt', 'fucc', 'fuck', 'damn', 'shit', 'hell', 'badwordtest',  'h͜͟e̷҉l͘l̢̛o̵̢', 'pussy', 'badword', 'lollypop', 'dirt', 'ass', 'razer', 'jcgt', 'PT_', 'prove', 'vore', 'futanari', '2girls1cup', 'furry']
 irc = socket.socket (socket.AF_INET, socket.SOCK_STREAM)
 dis = False
 # print "Connecting to "+network+" ..."
